@@ -18,7 +18,7 @@
 #define EZTIMERSTATUSKEY_PAUSE  @"EZTIMERSTATUSKEY_PAUSE"
 
 #ifdef DEBUG
-    #define EZLog(...) NSLog(__VA_ARGS__)
+    #define EZLog(...) NSLog(@"\n********************方法名********************\n%s\n********************输出内容********************\n %@\n", __func__, [NSString stringWithFormat:__VA_ARGS__])
 #else
     #define EZLog(...)
 #endif

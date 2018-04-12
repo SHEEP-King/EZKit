@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52403FED207EF0EC00A541FF /* EZHeartHeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52403FEC207EF0EC00A541FF /* EZHeartHeatView.m */; };
+		52403FF0207F095E00A541FF /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52403FEF207F095E00A541FF /* AnimationController.m */; };
 		5248C073205A6C8A00132346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5248C072205A6C8A00132346 /* AppDelegate.m */; };
 		5248C076205A6C8A00132346 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5248C075205A6C8A00132346 /* ViewController.m */; };
 		5248C079205A6C8A00132346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5248C077205A6C8A00132346 /* Main.storyboard */; };
@@ -14,9 +16,14 @@
 		5248C07E205A6C8A00132346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5248C07C205A6C8A00132346 /* LaunchScreen.storyboard */; };
 		5248C081205A6C8A00132346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5248C080205A6C8A00132346 /* main.m */; };
 		5248C08A2060AD2D00132346 /* EZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5248C0892060AD2D00132346 /* EZTimer.m */; };
+		527AB3262063A52A00D7A5E7 /* EZDateFormater.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AB3252063A52A00D7A5E7 /* EZDateFormater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52403FEB207EF0EC00A541FF /* EZHeartHeatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZHeartHeatView.h; sourceTree = "<group>"; };
+		52403FEC207EF0EC00A541FF /* EZHeartHeatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZHeartHeatView.m; sourceTree = "<group>"; };
+		52403FEE207F095E00A541FF /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		52403FEF207F095E00A541FF /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
 		5248C06E205A6C8A00132346 /* EZKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5248C071205A6C8A00132346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5248C072205A6C8A00132346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +36,8 @@
 		5248C080205A6C8A00132346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5248C0882060AD2D00132346 /* EZTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZTimer.h; sourceTree = "<group>"; };
 		5248C0892060AD2D00132346 /* EZTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZTimer.m; sourceTree = "<group>"; };
+		527AB3242063A52A00D7A5E7 /* EZDateFormater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZDateFormater.h; sourceTree = "<group>"; };
+		527AB3252063A52A00D7A5E7 /* EZDateFormater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZDateFormater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52403FEA207EEE9A00A541FF /* EZAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				52403FEB207EF0EC00A541FF /* EZHeartHeatView.h */,
+				52403FEC207EF0EC00A541FF /* EZHeartHeatView.m */,
+			);
+			path = EZAnimation;
+			sourceTree = "<group>";
+		};
 		5248C065205A6C8A00132346 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +79,8 @@
 		5248C070205A6C8A00132346 /* EZKit */ = {
 			isa = PBXGroup;
 			children = (
+				52403FEA207EEE9A00A541FF /* EZAnimation */,
+				527AB3232063A3B200D7A5E7 /* EZDateFormater */,
 				5248C0872060ACF900132346 /* EZTimer */,
 				52B5020F20611CE90062043F /* Others */,
 				5248C07A205A6C8A00132346 /* Assets.xcassets */,
@@ -78,6 +98,15 @@
 			path = EZTimer;
 			sourceTree = "<group>";
 		};
+		527AB3232063A3B200D7A5E7 /* EZDateFormater */ = {
+			isa = PBXGroup;
+			children = (
+				527AB3242063A52A00D7A5E7 /* EZDateFormater.h */,
+				527AB3252063A52A00D7A5E7 /* EZDateFormater.m */,
+			);
+			path = EZDateFormater;
+			sourceTree = "<group>";
+		};
 		52B5020F20611CE90062043F /* Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 				5248C075205A6C8A00132346 /* ViewController.m */,
 				5248C077205A6C8A00132346 /* Main.storyboard */,
 				5248C080205A6C8A00132346 /* main.m */,
+				52403FEE207F095E00A541FF /* AnimationController.h */,
+				52403FEF207F095E00A541FF /* AnimationController.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -163,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52403FED207EF0EC00A541FF /* EZHeartHeatView.m in Sources */,
 				5248C08A2060AD2D00132346 /* EZTimer.m in Sources */,
+				527AB3262063A52A00D7A5E7 /* EZDateFormater.m in Sources */,
+				52403FF0207F095E00A541FF /* AnimationController.m in Sources */,
 				5248C076205A6C8A00132346 /* ViewController.m in Sources */,
 				5248C081205A6C8A00132346 /* main.m in Sources */,
 				5248C073205A6C8A00132346 /* AppDelegate.m in Sources */,

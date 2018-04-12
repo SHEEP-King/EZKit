@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EZDateFormater : NSObject
+@interface EZDateFormater : NSObject<NSCacheDelegate>
 
 @end
